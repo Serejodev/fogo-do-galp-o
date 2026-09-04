@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fogo do Galpão — Churrascaria em Ceilândia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">
+      <svg class="flame-mark" viewBox="0 0 24 24" fill="none">
+        <path d="M12 2C10 6 7 7 7 11a5 5 0 0 0 10 0c0-1.3-.4-2.2-1-3 .2 1.2-.3 2-1 2 .6-2.4-.8-4-3-8Z" fill="#e0641f"/>
+        <path d="M12 22a4 4 0 0 1-4-4c0-1.8 1.2-2.8 2.2-4-.1 1 .3 1.6.9 1.6-.4-1.6.6-2.4 1.9-4.4C14.8 13.6 16 15 16 17a4 4 0 0 1-4 5Z" fill="#d8a856"/>
+      </svg>
+      Fogo do Galpão
+    </div>
+    <ul id="navList">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#galeria">Ambiente</a></li>
+      <li><a href="#rodizio">Rodízio</a></li>
+      <li><a href="#local">Local &amp; horário</a></li>
+    </ul>
+    <div style="display:flex; align-items:center; gap:10px;">
+      <a class="nav-cta" href="https://wa.me/message/ULD74EOJ4E7ZH1" target="_blank" rel="noopener">Reservar</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Ceilândia · Rodízio todos os dias</div>
+      <h1>A brasa que move Ceilândia há mais de 15 anos.</h1>
+      <p class="lede">Rodízio completo de carnes nobres, sushi e sashimi, buffet variado e atendimento de casa cheia — aberto todos os dias da semana, de domingo a domingo.</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="https://wa.me/message/ULD74EOJ4E7ZH1" target="_blank" rel="noopener">Reservar no WhatsApp</a>
+        <a class="btn-ghost" href="#local">Ver endereço e horários</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <svg class="skewer-scene" viewBox="0 0 400 320" fill="none">
+        <ellipse cx="200" cy="290" rx="160" ry="18" fill="#0f0a07"/>
+        <rect x="60" y="60" width="10" height="220" rx="4" fill="#5a4029"/>
+        <rect x="330" y="60" width="10" height="220" rx="4" fill="#5a4029"/>
+        <rect x="55" y="120" width="290" height="10" rx="4" fill="#4a3320"/>
+        <g>
+          <rect x="90" y="126" width="16" height="70" rx="6" fill="#8a2f1c"/>
+          <rect x="90" y="126" width="16" height="14" rx="6" fill="#c96b3c"/>
+          <rect x="150" y="126" width="16" height="70" rx="6" fill="#7c2a1a"/>
+          <rect x="150" y="126" width="16" height="14" rx="6" fill="#c96b3c"/>
+          <rect x="210" y="126" width="16" height="70" rx="6" fill="#8a2f1c"/>
+          <rect x="210" y="126" width="16" height="14" rx="6" fill="#c96b3c"/>
+          <rect x="270" y="126" width="16" height="70" rx="6" fill="#7c2a1a"/>
+          <rect x="270" y="126" width="16" height="14" rx="6" fill="#c96b3c"/>
+        </g>
+        <path d="M100 250c-10-20 4-30-6-46 12 4 16 16 12 26 10-6 8-18 2-28 16 8 20 26 8 40-4 6-10 6-16 8Z" fill="#e0641f" opacity="0.9"/>
+        <path d="M160 255c-10-22 6-32-4-50 13 4 17 18 12 28 11-6 9-20 2-30 18 9 22 28 9 43-5 6-11 6-19 9Z" fill="#d8a856" opacity="0.85"/>
+        <path d="M220 250c-10-20 4-30-6-46 12 4 16 16 12 26 10-6 8-18 2-28 16 8 20 26 8 40-4 6-10 6-16 8Z" fill="#e0641f" opacity="0.9"/>
+        <path d="M280 255c-10-22 6-32-4-50 13 4 17 18 12 28 11-6 9-20 2-30 18 9 22 28 9 43-5 6-11 6-19 9Z" fill="#a8321f" opacity="0.85"/>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="wrap">
+    <div class="stat"><div class="num">4,4</div><div class="lab">avaliação média (Google)</div></div>
+    <div class="stat"><div class="num">30 mil+</div><div class="lab">seguidores no Instagram</div></div>
+    <div class="stat"><div class="num">15+ anos</div><div class="lab">servindo Ceilândia e o DF</div></div>
+    <div class="stat"><div class="num">7 dias</div><div class="lab">por semana, sem folga</div></div>
+  </div>
+</div>
+
+<section id="sobre">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Sobre a casa</div>
+      <h2>Uma churrascaria de bairro que virou point da região</h2>
+    </div>
+    <div class="about-grid">
+      <div>
+        <p>Há mais de 15 anos, o Fogo do Galpão atende famílias de Ceilândia e de todo o Distrito Federal. A proposta é simples: rodízio farto, carnes bem passadas na brasa e casa aberta todos os dias, sem exceção.</p>
+        <p>Além do churrasco tradicional, a casa aposta em um cardápio ampliado, com estação de sushi e sashimi ao lado das carnes — o tipo de mistura que só faz sentido numa churrascaria brasiliense de bairro.</p>
+      </div>
+      <div class="wood-panel">
+        <h3>O que compõe o rodízio</h3>
+        <ul>
+          <li>Cortes nobres de carne bovina na brasa</li>
+          <li>Buffet de saladas, acompanhamentos e guarnições</li>
+          <li>Estação de sushi e sashimi</li>
+          <li>Serviço de mesa contínuo, no ritmo do cliente</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="galeria" style="background:var(--char-2); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Ambiente</div>
+      <h2>Um clima de galpão, brasa acesa o dia inteiro</h2>
+    </div>
+    <div class="gallery-note">
+      As fotos reais do salão, das brasas e dos pratos estão no <a href="https://www.instagram.com/fogodogalpao/" target="_blank" rel="noopener" style="color:var(--ember); font-weight:600;">Instagram @fogodogalpao</a>. Como este site é uma demonstração de layout, as fotos do perfil não puderam ser incorporadas diretamente aqui — os blocos abaixo são apenas ilustrações no lugar delas.
+    </div>
+    <div class="gallery-grid" id="galleryGrid">
+      <div class="g-card g1" data-caption="Salão &amp; mesas — foto real no Instagram"><span>Salão &amp; mesas</span></div>
+      <div class="g-card g2" data-caption="Espeto na brasa — foto real no Instagram"><span>Espeto na brasa</span></div>
+      <div class="g-card g3" data-caption="Buffet de saladas — foto real no Instagram"><span>Buffet de saladas</span></div>
+      <div class="g-card g4" data-caption="Estação de sushi — foto real no Instagram"><span>Estação de sushi</span></div>
+      <div class="g-card g5" data-caption="Cortes nobres — foto real no Instagram"><span>Cortes nobres</span></div>
+      <div class="g-card g6" data-caption="Fachada — foto real no Instagram"><span>Fachada</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="rodizio">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Rodízio</div>
+      <h2>Feito para quem chega com fome de sobra</h2>
+    </div>
+    <div class="menu-grid">
+      <div class="menu-card">
+        <h3>Carnes na brasa</h3>
+        <p>Passadas de mesa em mesa sem parar, do ponto que a casa é conhecida, direto do espeto.</p>
+      </div>
+      <div class="menu-card">
+        <h3>Buffet completo</h3>
+        <p>Saladas, acompanhamentos quentes e guarnições para intercalar entre uma passada e outra.</p>
+      </div>
+      <div class="menu-card">
+        <h3>Sushi &amp; sashimi</h3>
+        <p>Estação japonesa dentro do rodízio, para quem quer variar sem sair da mesa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="local" style="background:var(--char-2); border-top:1px solid var(--line);">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Local &amp; horário</div>
+      <h2>De domingo a domingo, sem folga</h2>
+    </div>
+    <div class="info-grid">
+      <table class="hours">
+        <tr><td>Segunda</td><td>11h–15h · 18h–23h</td></tr>
+        <tr><td>Terça</td><td>11h–15h · 18h–00h</td></tr>
+        <tr><td>Quarta</td><td>11h–15h · 18h–23h</td></tr>
+        <tr><td>Quinta</td><td>11h–15h · 18h–23h</td></tr>
+        <tr><td>Sexta</td><td>11h–15h · 18h–23h</td></tr>
+        <tr><td>Sábado</td><td>11h–16h · 18h–23h</td></tr>
+        <tr><td>Domingo</td><td>11h–16h · 18h–22h</td></tr>
+      </table>
+      <div class="addr-block">
+        <p><strong style="color:var(--cream)">Endereço</strong></p>
+        <p>St. M QNM 12, Loja 01 — Ceilândia, Brasília - DF, 72210-120</p>
+        <p style="margin-top:18px;"><strong style="color:var(--cream)">Telefone</strong></p>
+        <p>(61) 3373-0102</p>
+        <p style="margin-top:18px;"><a href="https://wa.me/message/ULD74EOJ4E7ZH1" target="_blank" rel="noopener">Reservar mesa no WhatsApp →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta">
+  <div class="wrap">
+    <h2>Chame a família, avise os amigos e garanta a mesa</h2>
+    <p>Reservas simples, direto pelo WhatsApp da casa.</p>
+    <a class="btn-primary" href="https://wa.me/message/ULD74EOJ4E7ZH1" target="_blank" rel="noopener">Falar no WhatsApp</a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="brand" style="font-size:1rem;">Fogo do Galpão · Ceilândia</div>
+      <div>
+        <a href="https://www.instagram.com/fogodogalpao/" target="_blank" rel="noopener">Instagram @fogodogalpao</a>
+      </div>
+    </div>
+    <div class="demo-notice">
+      <strong>Isto é apenas uma demonstração.</strong> Esta página não é o site oficial da Churrascaria Fogo do Galpão nem foi criada, autorizada ou publicada pelo estabelecimento — é um protótipo de layout feito a partir de informações públicas (Instagram, Google e Facebook do negócio). Os blocos de "galeria" são ilustrações, não fotos reais da casa: fotos hospedadas no Instagram/Facebook não podem ser incorporadas de forma confiável em um arquivo HTML independente como este. Para ver fotos reais e fazer reservas de verdade, use os links do Instagram e do WhatsApp acima.
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Voltar ao topo">↑</button>
+<div id="galleryToast"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
